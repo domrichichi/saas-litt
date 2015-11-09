@@ -16,13 +16,49 @@ text-align:center;
 }
 
 .search {
-	text-align:center;
 	width:100%;
+	padding-left:1em;
+}
+
+.search:focus {
+	outline:none;
 }
 
 .navbar {
 	list-style-type:none;
 	text-align:center;
+}
+
+nav {
+	background-color:lightgrey;
+}
+
+nav a {
+	width:100%;
+	display:block;
+}
+
+nav a:hover {
+	background-color:grey;
+}
+
+nav a:active {
+	background-color:white;
+}
+
+nav a:focus {
+	outline:none;
+}
+
+/*Header Image*/
+
+.back-img {
+	background-color:lightgrey;
+	background-image:url("http://placehold.it/500x500");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	height:20em;
 }
 
 /*Tour*/
