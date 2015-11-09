@@ -6,9 +6,36 @@ a {
 
 /*nav*/
 
+.logo {
+	margin:0 auto;
+	display:block;
+}
+
+.login {
+text-align:center;
+}
+
+.search {
+	text-align:center;
+	width:100%;
+}
+
 .navbar {
 	list-style-type:none;
 	text-align:center;
 }
 
 /*Tour*/
+
+
+@media only screen and (min-width: 15em) {
+
+
+}
+
+
+
+/* (Whatever the class is) a:active {
+ 	background-color:;
+ }
+*/
