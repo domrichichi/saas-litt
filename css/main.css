@@ -1,0 +1,14 @@
+/*Home Page*/
+
+a {
+	text-decoration: none;
+}
+
+/*nav*/
+
+.navbar {
+	list-style-type:none;
+	text-align:center;
+}
+
+/*Tour*/
