@@ -80,9 +80,46 @@ nav a:focus {
 
 /*Footer*/
 
-.social {}
+.social {
+	margin: 0 auto;
+}
+
+.social img {
+	width: 85%;
+	max-width: 3em;
+	margin: 0 auto;
+	display: block;
+}
 
 /* (Whatever the class is) a:active {
  	background-color:;
  }
 */
+
+@media only screen and (min-width: 37.5em) {
+.logo {
+	width: 10vw;
+	max-width: 4em;
+}
+
+.login-btn {
+	text-align: right;
+	margin: 2.5em 2em 0 0;
+	display:block;
+}
+
+.bucket {
+	width: calc(100% - 1em);
+}
+
+}
+
+.bucket  {
+	width: calc(100% - 0.5em);
+	margin:0 auto;
+	display: block;
+}
+
+@media only screen and (min-width: 60em) {
+
+}
