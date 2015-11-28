@@ -26,9 +26,6 @@ text-align:center;
 	text-align:center;
 }
 
-nav {
-}
-
 nav a {
 	width:100%;
 	display:block;
@@ -58,10 +55,10 @@ input[type=text], textarea {
 }
 
 input[type=text]:focus, textarea:focus {
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  box-shadow: 0 0 5px rgba(244, 125, 85, 1);
   padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px;
-  border: 1px solid rgba(81, 203, 238, 1);
+  border: 1px solid rgba(244, 125, 85, 1);
 }
 
 /*Links & Navigation*/
@@ -79,9 +76,8 @@ nav .current {
 /*Header Image*/
 
 .back-img {
-	background-color:lightgrey;
-	background-image:url("http://placehold.it/500x500");
-	background-size:cover;
+	background-image:url("../img/xs-billboard.jpg");
+	background-size: cover;
 	background-repeat:no-repeat;
 	background-position: center;
 }
@@ -110,10 +106,40 @@ input {
 	max-width:23.5em;
 }
 
-/*Thank You*/
+
+/*Colours*/
+
+.lighttone {
+	color:#FEDDBA;
+}
+
+.black {
+	background-color: #3A3335;
+}
+
+/*Typography*/
+
+.quicksand {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.lobster {
+	font-family: 'Lobster', cursive;
+}
 
 @media only screen and (min-width: 15em) {
 
+
+}
+
+@media only screen and (min-width: 20em) {
+
+.back-img {
+	background-image:url("../img/xs-billboard.jpg");
+	background-size: 100% auto;
+	background-repeat:no-repeat;
+	background-position: center;
+}
 
 }
 
@@ -136,27 +162,35 @@ input {
 */
 
 @media only screen and (min-width: 38em) {
-.logo {
-	width: 10vw;
-	max-width: 4em;
-}
+	.logo {
+		width: 10vw;
+		max-width: 4em;
+	}
 
-.login-btn {
-	text-align: right;
-	margin: 2.5em 2em 0 0;
-	display:block;
-}
+	.login-btn {
+		text-align: right;
+		margin: 2.5em 2em 0 0;
+		display:block;
+	}
 
-.bucket {
-	width: calc(100% - 1em);
-}
+	.bucket {
+		width: calc(100% - 1em);
+	}
 
-}
+	.bucket  {
+		width: calc(100% - 0.5em);
+		margin:0 auto;
+		display: block;
+	}
 
-.bucket  {
-	width: calc(100% - 0.5em);
-	margin:0 auto;
-	display: block;
+	/*Header Image*/
+
+	.back-img {
+		background-image:url("../img/large-billboard2.jpg");
+		background-size: 120% auto;
+		background-repeat:no-repeat;
+		background-position: center;
+	}
 }
 
 @media only screen and (min-width: 60em) {
