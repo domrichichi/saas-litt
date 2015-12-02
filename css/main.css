@@ -43,7 +43,7 @@ nav a:focus {
 	outline:none;
 }
 
-input[type=text], textarea {
+input[type=text], input[type=password], textarea {
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
   -ms-transition: all 0.30s ease-in-out;
@@ -54,7 +54,7 @@ input[type=text], textarea {
   border: 1px solid #DDDDDD;
 }
 
-input[type=text]:focus, textarea:focus {
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
   box-shadow: 0 0 5px rgba(244, 125, 85, 1);
   padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px;
@@ -82,15 +82,28 @@ nav .current {
 	background-position: center;
 }
 
-/*Button*/
+/*Buttons*/
 
 .btn {
 	background-color:darkgrey;
 	border-radius:50px;
 	max-width:12.500em;
+	display:block;
+	margin:0 auto;
+}
+
+.submit-btn {
+	margin-top:1em;
 }
 
 /*Tour*/
+.img-size {
+	width:50%;
+}
+
+.img-size img {
+	width:100%;
+}
 
 /*Payment*/
 
@@ -99,48 +112,17 @@ input {
 }
 
 .small-width {
-	max-width:11em;
+	width:55%;
+	text-align:center;
 }
 
 .card-width {
 	max-width:23.5em;
 }
 
-
-/*Colours*/
-
-.lighttone {
-	color:#FEDDBA;
-}
-
-.black {
-	background-color: #3A3335;
-}
-
-/*Typography*/
-
-.quicksand {
-	font-family: 'Quicksand', sans-serif;
-}
-
-.lobster {
-	font-family: 'Lobster', cursive;
-}
-
-@media only screen and (min-width: 15em) {
-
-
-}
-
-@media only screen and (min-width: 20em) {
-
-.back-img {
-	background-image:url("../img/xs-billboard.jpg");
-	background-size: 100% auto;
-	background-repeat:no-repeat;
-	background-position: center;
-}
-
+.info-form {
+	max-width:30em;
+	margin: 0 auto;
 }
 
 /*Footer*/
@@ -156,10 +138,79 @@ input {
 	display: block;
 }
 
+
+/*Colours*/
+
+.lighttone {
+	color:#FEDDBA;
+}
+
+.black {
+	background-color: #3A3335;
+}
+
+.orange {
+color:#F47D55;
+}
+
+/*Typography*/
+
+.quicksand {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.lobster {
+	font-family: 'Lobster', cursive;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*Graphic*/
+
+.graphic {
+	width: calc(100% - 2em);
+	max-width: 15em;
+	margin:0 auto;
+	display: block;
+}
+
+
+
+@media only screen and (min-width: 15em) {
+
+	.img-size {
+		width: 60%;
+		position:relative;
+		left:20%;
+		max-width: 15em;
+	}
+
+}
+
+@media only screen and (min-width: 20em) {
+
+.back-img {
+	background-image:url("../img/xs-billboard.jpg");
+	background-size: 100% auto;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+
+}
+
 /* (Whatever the class is) a:active {
  	background-color:;
  }
 */
+
+@media only screen and (min-width: 28.313em) {
+
+	.img-size {
+		position:static;
+	}
+}
 
 @media only screen and (min-width: 38em) {
 	.logo {
@@ -173,15 +224,19 @@ input {
 		display:block;
 	}
 
-	.bucket {
-		width: calc(100% - 1em);
-	}
-
 	.bucket  {
 		width: calc(100% - 0.5em);
 		margin:0 auto;
 		display: block;
 	}
+
+.img-size {
+	width:50%;
+}
+
+.img-size img {
+	width:100%;
+}
 
 	/*Header Image*/
 
