@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color:lightgrey;
+	background-color:#FEDDBA;
 	transition: all 0.3s ease 0s;
 
 }
@@ -70,11 +70,11 @@ nav .current {
 }
 
 a:visited {
-	color: #F47D55;
+	color:black;
 }
 
 .navhover {
-	color:black;
+	color:#F47D55;
 }
 
 /*Body Text*/
@@ -173,11 +173,18 @@ input {
 	color: #F47D55;
 }
 
+.white {
+	color:white;
+}
+
 .gradient {
 	background-color:white;
 	background: -webkit-linear-gradient(white, #FEDDBA);
 }
 
+h1 {
+	color:#F47D55;
+}
 
 
 /*Typography*/
@@ -213,6 +220,13 @@ h3 {
 	display: block;
 }
 
+footer a:hover {
+	color:white;
+}
+
+footer a {
+	color:#FEDDBA;
+}
 
 
 @media only screen and (min-width: 15em) {
