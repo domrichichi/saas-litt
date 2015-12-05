@@ -144,6 +144,27 @@ input {
 	margin: 0 auto;
 }
 
+
+/*Pricing*/
+
+.resources {
+	list-style-type:none;
+}
+
+.resources li {
+	padding-right:16px;
+}
+
+.resources li:before {
+	content:"•";
+	color:#F47D55;
+	padding-right:8px;
+}
+
+.prices {
+	width:100%;
+}
+
 /*Footer*/
 
 .social {
@@ -249,11 +270,6 @@ footer a {
 }
 
 }
-
-/* (Whatever the class is) a:active {
- 	background-color:;
- }
-*/
 
 @media only screen and (min-width: 28.313em) {
 
