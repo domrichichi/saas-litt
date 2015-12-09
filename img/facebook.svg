@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="72px" height="72px" viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#F48969;}
-	.st1{fill:#FFFFFF;}
-</style>
-<path id="Blue_1_" class="st0" d="M67.8,71.7c2.2,0,3.9-1.8,3.9-3.9V4.2c0-2.2-1.8-3.9-3.9-3.9H4.2C2,0.3,0.3,2,0.3,4.2v63.6
-	c0,2.2,1.8,3.9,3.9,3.9H67.8z"/>
-<path id="f" class="st1" d="M49.6,71.7V44.1h9.3l1.4-10.8H49.6v-6.9c0-3.1,0.9-5.2,5.3-5.2h5.7v-9.6c-1-0.1-4.4-0.4-8.3-0.4
-	c-8.2,0-13.9,5-13.9,14.3v8h-9.3v10.8h9.3V72h11.2V71.7z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"><style type="text/css">.st0{fill:#F48969;} .st1{fill:#FFFFFF;}</style><path id="Blue_1_" class="st0" d="M67.8 71.7c2.2 0 3.9-1.8 3.9-3.9v-63.6c0-2.2-1.8-3.9-3.9-3.9h-63.6c-2.2 0-3.9 1.7-3.9 3.9v63.6c0 2.2 1.8 3.9 3.9 3.9h63.6z"/><path id="f" class="st1" d="M49.6 71.7v-27.6h9.3l1.4-10.8h-10.7v-6.9c0-3.1.9-5.2 5.3-5.2h5.7v-9.6c-1-.1-4.4-.4-8.3-.4-8.2 0-13.9 5-13.9 14.3v8h-9.3v10.8h9.3v27.7h11.2v-.3z"/></svg>

@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="72px" height="72px" viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#CCCCCC;}
-	.st1{fill:none;}
-	.st2{fill:#FFFFFF;}
-	.st3{font-family:'MyriadPro-Regular';}
-	.st4{font-size:16.3636px;}
-</style>
-<g>
-	<circle class="st0" cx="36" cy="36" r="36"/>
-	<rect x="9" y="29.1" class="st1" width="54" height="13.9"/>
-	<text transform="matrix(1 0 0 1 8.999 40.709)" class="st2 st3 st4">Graphic</text>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"><style type="text/css">.st0{fill:#CCCCCC;} .st1{fill:none;} .st2{fill:#FFFFFF;} .st3{font-family:&apos;MyriadPro-Regular&apos;;} .st4{font-size:16.3636px;}</style><circle class="st0" cx="36" cy="36" r="36"/><path class="st1" d="M9 29.1h54v13.9h-54z"/><text transform="translate(8.999 40.709)" class="st2 st3 st4">Graphic</text></svg>
